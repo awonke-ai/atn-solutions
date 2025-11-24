@@ -135,22 +135,23 @@ export default function ComingSoon() {
           <aside className="hidden md:block md:w-1/3 bg-gradient-to-b from-blue-600 to-blue-500 text-white p-8">
             <div className="h-full flex flex-col justify-between">
               <div>
-                <h3 className="text-2xl font-bold mb-2">What we do</h3>
-                <ul className="space-y-3 text-sm">
-                  <li>• Web Development</li>
-                  <li>• Web Redesign</li>
-                  <li>• SEO</li>
-                  <li>• Mobile Applications</li>
-                  <li>• IT & Product Consultancy</li>
-                </ul>
-              </div>
+  <h3 className="text-2xl font-bold mb-2">What We Do</h3>
+  <ul className="space-y-3 text-sm leading-relaxed">
+    <li>• Custom Web Development & Modern Web Redesign</li>
+    <li>• Search Engine Optimization (SEO) & Global Businesses</li>
+    <li>• Mobile Application Development (iOS & Android)</li>
+    <li>• IT & Product Consultancy for Startups and Enterprises</li>
+    <li>• Product Engineering and Technical Architecture</li>
+    <li>• Company Registration & Digital Business Setup</li>
+  </ul>
+</div>
 
-              <div className="mt-6">
+              {/* <div className="mt-6">
                 <p className="text-sm opacity-90 mb-3">Want early access to demos and case studies?</p>
                 <a className="inline-block bg-white text-blue-600 px-4 py-2 rounded-md font-semibold hover:opacity-95" href="#contact">
                   Request Demo
                 </a>
-              </div>
+              </div> */}
             </div>
           </aside>
         </div>
